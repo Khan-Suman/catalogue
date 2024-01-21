@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red : magenta;
+    --black : #130f40;
+    --light-color: #666;
+    --box-shadow : 0 0.5rem 1rem rgb(197, 197, 197);
+    --border: 2rem solid rgba(0,0,0.1);
+    --outline: .1rem solid rgba(0,0,0.1); 
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background-color: #eee;
+}
+
+section{
+    padding: 4rem 9%;
+}
+
+.header{
+    border: 0px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.header .logo i{
+    color: var(--red);
+}
+.header .navbar a{
+    font-size: 1.6rem;
+    margin: 0 1rem;
+    color: var(--black);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    border: 0px solid;
+    background: url(./desktop-wallpaper-full-color-printing-allegra-corona-marketing-print-mail-5100x3400-for-your-mobile-tablet-printing-press.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 12rem;
+    box-shadow: var(--box-shadow);
+}
+
+.categories .box-container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+    box-shadow: var(--box-shadow);
+    }
+
+    .categories .box-container .box{
+        border: 0px solid red;
+        padding: 3rem 2rem;
+        background-color: #fff;
+    }
+
+    .categories .box-container .box:hover{
+        box-shadow: 1px 1px 10px 4px rgb(156, 111, 111);
+    }
+
+    .categories .box-container .box img{
+        margin: 1rem 0;
+        height: 24.3rem;
+    }
+    .categories .box-container .box h3{
+        font-size: 3rem;
+        color:darkcyan
+    }
+    .categories .box-container .box p{
+        font-size: 1.3rem;
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: lowercase;
+    }
+.heading{
+    text-align: center;
+    font-weight:450;
+    padding: 5px 0;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.heading span{
+    background: green;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.btn{
+    padding: 10px 20px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(255, 104, 50);
+}
+section .btn:hover{
+    background-color: green;
+    color: white;
+}
+.content h3{
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.diff{
+    color: yellowgreen;
+}
+.content{
+     margin-left: 15%;
+}
+.box1{
+    width: 500px;
+}
+.box1 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.btn1{
+    padding: 10px 20px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    background-color: rgb(254, 107, 53);
+}
+.btn1:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.box2{
+    width: 500px;
+    height: 300px;
+}
+.box2 img{
+    max-width: 100%;
+    max-height: 100%;
+}
